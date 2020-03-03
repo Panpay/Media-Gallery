@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media Gallery</title>
+</head>
+
+<body>
+    <nav class="navBar" id="navigationbar">
+        <a href="#">Home</a>
+        <a href="#">Europe</a>
+        <a href="#">Asia</a>
+        <a href="#">Australia</a>
+        <a href="#">Africa</a>
+        <a class = "navigation" id ="altnav" onclick = "navtoggle();">&#9776;</a>
+    </nav>
+
+    <section class = "Title">
+        <h1>Best Vacation Locations</h1>
+    </section>
+
+    <section class="slideshow">
+        <div class="slideshow-wrap">
+  
+          <div class="slide fade">
+            <img src="images/carousel1.jpg" alt="Image One" >
+            <p class="caption">Lakeside Sunset</p>
+          </div>
+  
+          <div class="slide fade">
+            <img src="images/carousel2.jpg" alt="Image Two" >
+            <p class="caption">Tropical Beach</p>
+          </div>
+  
+          <div class="slide fade">
+            <img src="images/carousel3.jpg" alt="Image Three" >
+            <p class="caption">Private Beach</p>
+          </div>
+  
+          <div class="slide fade">
+            <img src="images/carousel4.jpg" alt="Image Four" >
+            <p class="caption">Lakeside Port</p>
+          </div>
+  
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+        </div>
+  
+        <div class="thumbnail-wrap">
+          <span class="thumbnail" onclick="currentSlide(1)"><img src="images/carousel1.jpg" alt="Image One" ></span>
+          <span class="thumbnail" onclick="currentSlide(2)"><img src="images/carousel2.jpg" alt="Image Two" ></span>
+          <span class="thumbnail" onclick="currentSlide(3)"><img src="images/carousel3.jpg" alt="Image Three" ></span>
+          <span class="thumbnail" onclick="currentSlide(4)"><img src="images/carousel4.jpg" alt="Image Four" ></span>
+        </div>
+  
+        <article class="grid-section">
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>North Carolina</h3>
+                  <p>Enjoy the sun and beaches of South Carolina for your next vaction, getting some well deserved rest and relaxation any number of 5 star beachside hotels.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Florida </h3>
+                  <p>Relax under the shade of palm trees at one of the large number of resorts in Orlando where you are but a short walk away from Disneyland.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>New York</h3>
+                  <p>Experience an exciting day at the racetrack and then unwind at one of the many nearby resorts at Saratoga Springs complete with pool and hot tub access.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>California</h3>
+                  <p>Nothing is more relaxing than a calm and peaceful cruise in the port of San Franciso, complete with a short stop under the iconic Golden Gate Bridge.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+            <div class="widget">
+                <div class="picture"></div>
+                <div class="card-content">
+                  <h3>Card Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button class="more">Learn More</button>
+
+                </div>
+            </div>
+
+        </article>
+</body>
+
+
+<footer>
+    <p>&copy; 2019, Pan Pan Chen</p>
+</footer>
+<script src="js/page.js"></script>
